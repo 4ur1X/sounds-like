@@ -35,5 +35,19 @@ body{
 	width: 100%;
 	justify-content: center;
 	text-align: center;
-	margin-top: 20px;
+}
+
+#pan1 {
+	position: relative;
+}
+.back {
+	position: relative;
+}
+.front {
+	position: absolute;
+}
+
+#sl1{
+	width: 21.5%;
+	height: 60%;
 }
