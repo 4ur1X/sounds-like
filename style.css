@@ -1,0 +1,39 @@
+*{ /*universal selector*/
+	list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+html {
+	 scroll-snap-type: y mandatory;
+}
+body{
+    background: white;
+}
+
+.panel {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: center;
+	scroll-snap-align: center;
+	transition: all 0.9s ease; 
+    scroll-snap-stop: center;
+}
+
+.panel img{
+	flex: 1;
+	width: 100%;
+	align-self: center;
+}
+
+.subpanel{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: center;
+	text-align: center;
+	margin-top: 20px;
+}
