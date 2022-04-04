@@ -11,7 +11,8 @@ A Ramadan Day
 *How did you go about implementing the concept.*
 
 **Wireframe**
-<img src="file:///Users/salama/Desktop/soundWireframe.jpg" width=300 align=center>
+
+<img src="https://github.com/4ur1X/sounds-like/blob/main/soundWireframe.jpg" width=300 align=center>
 
 
 
