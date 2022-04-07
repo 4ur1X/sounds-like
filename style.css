@@ -10,13 +10,13 @@ html {
 	 scroll-snap-type: y mandatory;
 }
 body{
-    background: white;
+    background: black;
 }
 
 .panel {
 	display: flex;
 	flex-direction: column;
-	width: 100%;
+	width: 96%;
 	justify-content: center;
 	scroll-snap-align: center;
 	transition: all 0.9s ease; 
@@ -25,7 +25,8 @@ body{
 
 .panel img{
 	flex: 1;
-	width: 100%;
+	width: 96%;
+	padding-left: 4%;
 	align-self: center;
 }
 
@@ -48,6 +49,7 @@ body{
 }
 
 #sl1{
-	width: 21.5%;
-	height: 60%;
+	width: 24.5%;
+	height: 69.5%;
+	bottom: 15.8%;
 }
