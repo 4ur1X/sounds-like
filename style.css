@@ -81,3 +81,48 @@ body{
 	color: orange;
 }
 
+
+.icon{
+    color: #ff8000;
+    width: 30px;
+    display: inline-block;
+    font-size: 150%;
+}
+
+.icon:hover{
+    color: white;
+}
+
+#vol{
+	margin-left: 2.5%;
+	margin-bottom: 40%;
+}
+
+#on{
+	display: none;
+}
+
+#off{
+	display: inline-block;
+}
+
+#vol2{
+	margin-left: 49%;
+	margin-top: 40.85%;
+}
+
+#vol2 img{
+	width: 13%;
+}
+
+#pause{
+	display: none;
+}
+
+#replay{
+	display: none;
+}
+
+#play{
+	display: inline-block;
+}

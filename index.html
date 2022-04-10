@@ -21,14 +21,39 @@
 
 			<div id="main">
 				<!-- Title Panel -->
-				<div class = "panel" id = "pan0">
-					<img src="panels/title.png" alt="panel0"> <!--id links to a tag above-->
+				<div class = "panel" id = "pan1">
+					<img src="panels/title.png" alt="panel0" class="back"> <!--id links to a tag above-->
+					<audio id="intro" loop>
+						<source src="sounds/intro.mp3" type="audio/mpeg">
+						<source src="/media/intro.ogg" type="audio/ogg">
+								Error message! This doesn't work.
+					</audio>
+					<div class="front" id="vol">
+						<div>
+							<span class="icon" id="on"><i class="fa-solid fa-volume-high"></i></span>
+							<span class="icon" id="off"><i class="fa-solid fa-volume-xmark"></i></span>
+						</div>
+					</div>
 				</div>
 
 				<!--Panel1-->
 				<div class = "panel" id = "pan1">
 					<img src="panels/page1.png" class="back"> <!--id links to a tag above-->
 					<img src="images/img1.jpg" class="front" id="sl1"> <!--id links to a tag above-->
+
+					<audio id="test"> 
+						<source src="sounds/test.mp3" type="audio/mpeg">
+						<source src="/media/test.ogg" type="audio/ogg">
+								Error message! This doesn't work.
+					</audio>
+					<div class="front" id="vol2">
+						<div>
+							<img class = "icon2" id="pause" src="panels/button2.png" class="back">
+							<img class = "icon2" id="play" src="panels/button1.png" class="back">
+							<img class = "icon2" id="replay" src="panels/button3.png" class="back">
+						</div>
+					</div>
+
 				</div>
 
 				<div class = "panel" id = "pan1">
