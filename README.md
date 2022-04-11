@@ -45,11 +45,10 @@ In regards to the start of the Holy month of Ramadan, our project is a sound pie
 - Adhan
 
   
-
 3.  We used the Zoom H6n to record some of the audios.
 4.  Each of us took 1 part to edit, which we then put together into 1 sound.
 5.  While recording, we also took pictures of each "scene" to add a slideshow of images while our sound plays.
-6.  Working on the website...
+6.  For the website we added interactivity by allowing people to play music on the front page and the confetti to pop up. We also added animations to our names on the last page.
 
 **Wireframe:**  
 Initial design of the wireframe.   
@@ -61,3 +60,4 @@ Initial design of the wireframe.
 ## Reflection/Evaluation: 
 *This should bookend the initial concept and talk about whether your expectations and goals were met in the process of building the final working version.*
 
+We definitely captured each of the moments that we thought defined an individual's day whilst fasting at NYUAD, this included working with D2 staff and asking our friends to partake in conversations. It was interesting to piece together the audio soundscape part by part as we all worked on it individually but it came together pretty well and the sounds are extremely clear to hear, including the reverb and fading effects. The website also helps drive the Ramadan day idea home by really following through with the festivity themes and the music. If we could do this again, I think our story arch could be more definitive by introducing the protagonist earlier in the 'story'.
