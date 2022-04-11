@@ -52,7 +52,8 @@ In regards to the start of the Holy month of Ramadan, our project is a sound pie
 6.  Working on the website...
 
 **Wireframe**
-Initial design of the wireframe.
+Initial design of the wireframe.   
+
 <img src="https://github.com/4ur1X/sounds-like/blob/main/soundWireframe.jpg" width=300 align=center>
 
 
