@@ -34,11 +34,11 @@ In regards to the start of the Holy month of Ramadan, our project is a sound pie
 - Distant sound of lectures / class
 - [Zones out]
 
-**Part 3:** Prayer sound (Zaeem + Ronit)
+**Part 3:** Prayer sound (Zaeem)
 - Talking friends – explain class situation + time until Maghrib
 - Walking Sounds to D2
 
- **Part 4:** D2 + Maghrib prayer (Zaeem + Ronit)
+ **Part 4:** D2 + Maghrib prayer (Ronit)
 - D2 chefs + grill sounds 
 - Cash register
 - D2 Ambience + Eating
