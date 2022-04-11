@@ -18,13 +18,14 @@ In regards to the start of the Holy month of Ramadan, our project is a sound pie
 
 2. We wrote down and divided the "scenes" of the whole day into 4 parts which was seperated into sounds, some of which we would record or retrieve online.
 
-Wake up for Suhoor (Salama)
+**Part 1:** Wake up for Suhoor (Salama)
 - Alarm
 - Suhoor eating sounds
 - Adhan 
 - Turning in bed
 - [Silence]
-Class (Suman)
+
+**Part 2:** Class (Suman)
 - Shower
 - Door closing
 - Walking
@@ -32,15 +33,18 @@ Class (Suman)
 - Walking
 - Distant sound of lectures / class
 - [Zones out]
-Prayer sound (Zaeem + Ronit)
+
+**Part 3:** Prayer sound (Zaeem + Ronit)
 - Talking friends – explain class situation + time until Maghrib
 - Walking Sounds to D2
-D2 + Maghrib prayer (Zaeem + Ronit)
+
+ **Part 4:** D2 + Maghrib prayer (Zaeem + Ronit)
 - D2 chefs + grill sounds 
 - Cash register
 - D2 Ambience + Eating
 - Adhan
 
+  
 
 3.  We used the Zoom H6n to record some of the audios.
 4.  Each of us took 1 part to edit, which we then put together into 1 sound.
