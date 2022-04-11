@@ -53,12 +53,6 @@ body{
 	position: absolute;
 }
 
-#sl1{
-	width: 24.5%;
-	height: 69.5%;
-	bottom: 15.8%;
-}
-
 #names{
 	top: 35%;
 	display: flex;
@@ -125,4 +119,30 @@ body{
 
 #play{
 	display: inline-block;
+}
+
+/* #sl1{
+	width: 35%;
+	height: 69.5%;
+	bottom: 15.8%;
+}
+ */
+
+/* Slideshow container */
+.slContainer {
+	position: absolute;
+	width: 22.1%;
+	height: 69.5%;
+	bottom: 15.8%;
+	left: 41%;
+	overflow: hidden;
+}
+
+/* Hide the images by default */
+.sl {
+	display: none;
+}
+
+:root {
+  --animate-duration: 0.05s;
 }

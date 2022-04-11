@@ -1,4 +1,5 @@
 // SOUND BUTTON TITLE
+window.addEventListener('load', function() { AOS.init(); });
 
 var intro = document.getElementById("intro");
 var on = document.getElementById("on");
@@ -11,6 +12,7 @@ off.addEventListener('click', function(){
 	on.style.display = 'inline-block';
 	if (trig == false) {
 		intro.play();
+		intro.volume = 0.2;
 		trig = true;
 	}
 	else{
@@ -45,6 +47,7 @@ play.addEventListener('click', function(){
 	pause.style.display = 'inline-block';
 	replay.style.display = 'none';
 	audio.play();
+	showSlides();
 	intro.muted = true;
 });
 
@@ -60,15 +63,42 @@ replay.addEventListener('click', function(){
 	pause.style.display = 'inline-block';
 	replay.style.display = 'none';
 	audio.play();
+	showSlides();
+	tindex = 0;
 });
 
 audio.addEventListener('ended', function(){
 	pause.style.display = 'none';
 	play.style.display = 'none';
 	replay.style.display = 'inline-block';
-	console.log("Finished!");
+	intro.muted = false;
 });
 
-
-
 // SOUND BUTTONS MAIN PAGE
+
+
+//SLIDESHOW
+let slideIndex = 0;
+let tindex = 0;
+const tstamps = [5900, 3000, 1000]; //hardcode timestamps here
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("sl");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  tindex++;
+  if (slideIndex > slides.length) {
+  	slideIndex = 1;
+  }
+  if (tindex > tstamps.length){
+  	tindex = 0;
+  	slideIndex = 0;
+  	return;
+  }
+  slides[slideIndex-1].style.display = "inline-block";
+  setTimeout(showSlides, tstamps[tindex-1]); // Change image every 2 seconds
+}
+//SLIDESHOW

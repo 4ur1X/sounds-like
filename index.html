@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Ramadan</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 		<link rel="icon" type="image/x-icon" href="panels/favicon.ico">
 		<link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -39,13 +40,35 @@
 				<!--Panel1-->
 				<div class = "panel" id = "pan1">
 					<img src="panels/page1.png" class="back"> <!--id links to a tag above-->
-					<img src="images/img1.jpg" class="front" id="sl1"> <!--id links to a tag above-->
+					<!-- <img src="images/img1.jpg" class="front" id="sl1"> id links to a tag above--> 
 
 					<audio id="test"> 
 						<source src="sounds/test.mp3" type="audio/mpeg">
-						<source src="/media/test.ogg" type="audio/ogg">
+						<source src="sounds/test.ogg" type="audio/ogg">
 								Error message! This doesn't work.
 					</audio>
+
+
+					<!-- Slideshow container -->
+					<div class="slContainer">
+
+					  <!-- Full-width images with number and caption text -->
+					  <div class="sl">
+					    <img src="images/img1.jpg" class="animate__animated animate__fadeInRight">
+					  </div>
+
+					  <div class="sl">
+					    <img src="images/img2.jpg" class="animate__animated animate__fadeInRight">
+					  </div>
+
+					  <div class="sl">
+					    <img src="images/img3.jpg" class="animate__animated animate__fadeInRight">
+					  </div>
+
+					</div>
+
+
+
 					<div class="front" id="vol2">
 						<div>
 							<img class = "icon2" id="pause" src="panels/button2.png" class="back">
@@ -55,6 +78,8 @@
 					</div>
 
 				</div>
+
+
 
 				<div class = "panel" id = "pan1">
 					<img src="panels/page2.png" class="back"> <!--id links to a tag above-->
