@@ -8,8 +8,17 @@ var trig = false;
 
 
 off.addEventListener('click', function(){
-	document.body.style.backgroundImage = "url(images/bg.jpg)";
+	// document.body.style.backgroundImage = "url(images/bg.jpg)";
 	document.body.style.backgroundSize = "contain";
+	var backgroundImg=["images/bg.jpg", "images/bg2.jpg", "images/bg3.png", "images/bg4.png"
+	]
+
+	setInterval(changeImage, 1000);
+	function changeImage() {   
+		var i = Math.floor((Math.random() * 3));
+		document.body.style.backgroundImage = "url('"+backgroundImg[i]+"')";
+		i = i + 1;
+	}
 	off.style.display = 'none';
 	on.style.display = 'inline-block';
 	if (trig == false) {
