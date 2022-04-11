@@ -8,6 +8,8 @@ var trig = false;
 
 
 off.addEventListener('click', function(){
+	document.body.style.backgroundImage = "url(images/bg.jpg)";
+	document.body.style.backgroundSize = "contain";
 	off.style.display = 'none';
 	on.style.display = 'inline-block';
 	if (trig == false) {
@@ -21,6 +23,8 @@ off.addEventListener('click', function(){
 });
 
 on.addEventListener('click', function(){
+	document.body.style.backgroundImage = "none";
+	document.body.style.backgroundColor="black";
 	on.style.display = 'none';
 	off.style.display = 'inline-block';
 	intro.muted = true;
