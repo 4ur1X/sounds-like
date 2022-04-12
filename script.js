@@ -93,8 +93,8 @@ audio.addEventListener('ended', function(){
 //SLIDESHOW
 let slideIndex = 0;
 let tindex = 0;
-const tstamps = [5000, 9000, 17000, 7000, 17000, 6000, 14000, 5000, 15000,
-		41000, 27000, 14000, 17000, 19000, 26000, 7000]; //hardcode timestamps here
+const tstamps = [5000, 9000, 18000, 6000, 17000, 6000, 5000, 16000, 7000, 22000,
+		28000, 8000, 27000, 13000, 20000, 21000, 6000, 23000]; //hardcode timestamps here
 
 function showSlides() {
   let i;
