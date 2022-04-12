@@ -115,5 +115,5 @@ function showSlides() {
 
   slides[slideIndex-1].style.display = "inline-block";
   
-  setTimeout(showSlides, tstamps[tindex-1]); // Change image every 2 seconds
+  setTimeout(showSlides, tstamps[tindex-1]); // Change image every x seconds
 }
