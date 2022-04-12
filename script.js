@@ -93,8 +93,13 @@ audio.addEventListener('ended', function(){
 //SLIDESHOW
 let slideIndex = 0;
 let tindex = 0;
+<<<<<<< Updated upstream
 const tstamps = [5500, 8000, 18000, 6000, 5000, 16500, 5500, 15000, 6800, 16000,
 		42000, 24000, 12000, 8000, 14000, 26000, 23000, 10000]; //hardcode timestamps here
+=======
+const tstamps = [1700, 9000, 17000, 7000, 17000, 6000, 14000, 5000, 15000,
+		41000, 27000, 14000, 17000, 19000, 26000, 7000]; //hardcode timestamps here FIRST VALUE IS 5700!
+>>>>>>> Stashed changes
 
 function showSlides() {
   let i;
@@ -112,9 +117,14 @@ function showSlides() {
   	slideIndex = 0;
   	return;
   }
+<<<<<<< Updated upstream
 
   if (slides[slideIndex-1].id == "fit") {
   	slides[slideIndex-1].style.paddingTop = '+5%';
+=======
+  if (slides[slideIndex-1].id == "fit") {
+  	slides[slideIndex-1].style.paddingTop = '+12%';
+>>>>>>> Stashed changes
   }
 
   slides[slideIndex-1].style.display = "inline-block";

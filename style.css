@@ -143,6 +143,10 @@ body{
 	display: none;
 }
 
+.fit{
+	display: none;
+}
+
 :root {
   --animate-duration: 0.05s;
 }
