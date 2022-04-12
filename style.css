@@ -146,3 +146,8 @@ body{
 :root {
   --animate-duration: 0.05s;
 }
+
+#footsteps{
+	width:  100%;
+	padding-top: 5%;
+}

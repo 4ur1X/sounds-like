@@ -93,8 +93,8 @@ audio.addEventListener('ended', function(){
 //SLIDESHOW
 let slideIndex = 0;
 let tindex = 0;
-const tstamps = [5000, 9000, 18000, 6000, 17000, 6000, 5000, 16000, 7000, 22000,
-		28000, 8000, 27000, 13000, 20000, 21000, 6000, 23000]; //hardcode timestamps here
+const tstamps = [5500, 8000, 18000, 6000, 5000, 16500, 5500, 15000, 6800, 16000,
+		42000, 24000, 12000, 8000, 14000, 26000, 23000, 10000]; //hardcode timestamps here
 
 function showSlides() {
   let i;
@@ -112,7 +112,13 @@ function showSlides() {
   	slideIndex = 0;
   	return;
   }
+
+  if (slides[slideIndex-1].id == "fit") {
+  	slides[slideIndex-1].style.paddingTop = '+5%';
+  }
+
   slides[slideIndex-1].style.display = "inline-block";
+  
   setTimeout(showSlides, tstamps[tindex-1]); // Change image every 2 seconds
 }
 //SLIDESHOW
