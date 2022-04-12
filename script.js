@@ -6,13 +6,13 @@ var on = document.getElementById("on");
 var off = document.getElementById("off");
 var trig = false;
 
-
+// Volume Button to Mute or Unmute
 off.addEventListener('click', function(){
 	// document.body.style.backgroundImage = "url(images/bg.jpg)";
+// 	Change background on random intervals
 	document.body.style.backgroundSize = "contain";
 	var backgroundImg=["images/bg.jpg", "images/bg2.jpg", "images/bg3.png", "images/bg4.png"
 	]
-
 	setInterval(changeImage, 1000);
 	function changeImage() {   
 		var i = Math.floor((Math.random() * 3));
@@ -31,6 +31,7 @@ off.addEventListener('click', function(){
 	}
 });
 
+// Volume Button to Mute or Unmute
 on.addEventListener('click', function(){
 	document.body.style.backgroundImage = "none";
 	document.body.style.backgroundColor="black";
@@ -39,12 +40,7 @@ on.addEventListener('click', function(){
 	intro.muted = true;
 });
 
-
-// SOUND BUTTON TITLE
-
-
 // SOUND BUTTONS MAIN PAGE
-
 var audio = document.getElementById("test");
 var pause = document.getElementById("pause");
 var play = document.getElementById("play");
@@ -87,16 +83,15 @@ audio.addEventListener('ended', function(){
 	intro.muted = false;
 });
 
-// SOUND BUTTONS MAIN PAGE
-
 
 
 //SLIDESHOW
 let slideIndex = 0;
 let tindex = 0;
 const tstamps = [5500, 8000, 18000, 6000, 5000, 16500, 5500, 15000, 6800, 16000,
-    42000, 24000, 12000, 8000, 14000, 26000, 23000, 10000]; //hardcode timestamps here
+    42000, 24000, 12000, 8000, 14000, 26000, 23000, 10000]; //hardcode timestamps
 
+//SLIDESHOW
 function showSlides() {
   let i;
   let slides = document.getElementsByClassName("sl");
@@ -122,4 +117,3 @@ function showSlides() {
   
   setTimeout(showSlides, tstamps[tindex-1]); // Change image every 2 seconds
 }
-//SLIDESHOW
