@@ -14,7 +14,7 @@ In regards to the start of the Holy month of Ramadan, our project is a sound pie
 ## Process: 
 *How did you go about implementing the concept.*
 
-1. After deciding on the idea, we created a simple wireframe for our website. We decided to do 3 separate sections on the same page which we can scroll through. First the title section, then the sound, and lastly the credits. The sound is played through an iPhone to look at the day in the life of a student captured through a phone. Our idea was to also have the first sound to be a phone alarm which was suitable with the iphone idea of waking up to the alarm for "suhoor".
+1. After deciding on the idea, we created a simple wireframe for our website. We decided to do 3 separate sections on the same page which we can scroll through. First the title section, then the sound, and lastly the credits. The sound is played through an iPhone to look at the day in the life of a student captured through a phone - the nostaligia from scrolling through pictures in your gallery brings sound to what you see. Our idea was to also have the first sound to be a phone alarm which was suitable with the iphone idea of waking up to the alarm for "suhoor".
 
 2. We wrote down and divided the "scenes" of the whole day into 4 parts which was seperated into sounds, some of which we would record or retrieve online.
 
