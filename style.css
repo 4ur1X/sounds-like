@@ -130,21 +130,17 @@ body{
 
 /* Slideshow container */
 .slContainer {
-	position: absolute;
-	width: 22.1%;
-	height: 69.5%;
-	bottom: 15.8%;
-	left: 41%;
-	overflow: hidden;
+  position: absolute;
+  width: 22.1%;
+  height: 69.5%;
+  bottom: 15.8%;
+  left: 41%;
+  overflow: hidden;
 }
 
 /* Hide the images by default */
 .sl {
-	display: none;
-}
-
-.fit{
-	display: none;
+  display: none;
 }
 
 :root {
@@ -152,6 +148,6 @@ body{
 }
 
 #footsteps{
-	width:  100%;
-	padding-top: 5%;
+  width:  100%;
+  padding-top: 5%;
 }
